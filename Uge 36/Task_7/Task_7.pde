@@ -1,5 +1,4 @@
-int number = -20;
-boolean negative =false;
+int number = (int)random((-20),20);
 
 if (number>0){
 for (int i = 0;i<=number;i++)
@@ -9,8 +8,7 @@ for (int i = 0;i<=number;i++)
   else println(i);
 }
 }
-
-if (number<0){
+else {
   for (int i = 0;i>=number;i--)
 {
   if (i == -6) println("NEGATIVE SIX");
