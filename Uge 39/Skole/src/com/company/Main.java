@@ -86,8 +86,6 @@ public class Main {
 
     private static void printMostFrequentLetter() {
         int[] charCounter = new int[Character.MAX_VALUE + 1];
-        char mostAppeared = ' ';
-        int counter = 0;
         for (String s : text) {
             for (int i = 0; i < s.length(); i++) {
                 char character = s.toUpperCase().charAt(i);
@@ -111,8 +109,6 @@ public class Main {
 
     private static void printLeastFrequentLetter() {
         int[] charCounter = new int[Character.MAX_VALUE + 1];
-        char mostAppeared = ' ';
-        int counter = 0;
         for (String s : text) {
             for (int i = 0; i < s.length(); i++) {
                 char character = s.toUpperCase().charAt(i);
