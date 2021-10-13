@@ -1,0 +1,25 @@
+@startuml
+
+Main --> Controller: has
+Controller *--> Dialog
+Controller *--> CalculateVat
+Controller *--> View
+
+Main : static main(String[] args)
+
+Controller : final static int PRCVAT
+Controller : final static String MSG
+Controller : final static String CURRENCY
+Controller : CalculateVat calculateVat
+Controller : Dialog dialog
+Controller : View view
+Controller : runController()
+
+CalculateVat : doVAT(double)
+
+View : doView (double, String)
+
+Dialog : doDiag()
+
+
+@enduml
