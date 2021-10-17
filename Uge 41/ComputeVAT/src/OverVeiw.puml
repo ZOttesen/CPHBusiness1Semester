@@ -21,5 +21,4 @@ View : doView (double, String)
 
 Dialog : doDiag()
 
-
 @enduml
